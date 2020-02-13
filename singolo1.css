@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.header-top {
+  padding: 29px 0;
+}
+
+.header-sitename {
+  font-size: 25px;
+  line-height: 125%;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 10px 0 39px;
+  cursor: pointer;
+}
+
+.header-sitename span {
+  color: #f06c64;
+}
+
+.header-content-left {
+  display: inline-block;
+  width: 30%;
+}
+.header-content-right {
+  display: inline-block;
+  width: 70%;
+  float: right;
+  color: #fff;
+}
+
+.ul-w-mainmenu-nav {
+  text-align: right;
+  margin: 0 24px 0 10px;
+}
+
+.ul-w-mainmenu-item {
+  display: inline-block;
+  padding: 10px 14px 5px 9px;
+}
+
+.ul-w-mainmenu-item:not(:last-child):after {
+  content: "•";
+  position: relative;
+  left: 12px;
+  bottom: 2px;
+  color: #494e62;
+  font-size: 6px;
+}
+.ul-w-mainmenu-item-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.ul-w-mainmenu-item-link.active {
+  color: #f06c64;
+}
+
+.ul-w-mainmenu-nav a:hover {
+  color: #f06c64;
+}
+
+.ul-w-slider {
+  min-height: 594px;
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
+}
+
+.phone {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+}
+
+.phone.vertical {
+  margin: 53px 50px 50px 92px;
+  width: 245px;
+  height: 485px;
+  background: url(../assets/PhoneV-img.png) no-repeat,
+    url(../assets/phone-bg.png) no-repeat,
+    url(../assets/Shadow.png) 1px 0 no-repeat;
+}
+
+.phone.horizontal {
+  margin: 15px 10px 10px 16px;
+  width: 485px;
+  height: 245px;
+  background: url(../assets/PhoneH-img.png) no-repeat,
+    url(../assets/phone-bg1.png) no-repeat,
+    url(../assets/Shadow1.png) 1px 0 no-repeat;
+}
+
+.chev {
+  display: inline-block;
+  background: url(../assets/chev.svg) no-repeat;
+  vertical-align: middle;
+  width: 16px;
+  height: 27px;
+  position: relative;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  cursor: pointer;  
+}
+
+.chev.prev {
+  left: 42px;
+}
+.chev:hover.prev {
+  left: 39px;
+}
+.chev.next {
+  left: 41px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.chev:hover.next {
+  left: 44px;
+}
+
+.ul-w-services {
+  min-height: 495px;
+  background-color: #f2f2f2;
+}
+.ul-w-services-bottom {
+  height: 6px;
+  background-color: #fff;
+}
+
+.ul-w-header {
+  padding: 48px 39px 0 39px;
+}
+
+.ul-w-header h1 {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+  text-align: left; 
+}
+
+.normal {
+  width: 940px;
+  padding: 6px 0 41px 41px;
+}
+
+.normal p {  
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-weight: 300;
+  text-align: left;
+  margin: 0;  
+}
