@@ -25,6 +25,7 @@ header {
 .header-sitename {
   font-size: 25px;
   line-height: 125%;
+  letter-spacing: -.55px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
@@ -40,9 +41,9 @@ header {
   display: inline-block;
   width: 30%;
 }
-.header-content-right {
-  display: inline-block;
-  width: 70%;  
+.header-content-right {  
+  width: 70%; 
+  float: right; 
   color: #fff;
 }
 
@@ -53,7 +54,7 @@ header {
 
 .ul-w-mainmenu-item {
   display: inline-block;
-  padding: 10px 14px 5px 9px;
+  padding: 10px 12px 5px 9px;
 }
 
 .ul-w-mainmenu-item:not(:last-child):after {
