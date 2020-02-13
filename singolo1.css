@@ -42,8 +42,7 @@ header {
 }
 .header-content-right {
   display: inline-block;
-  width: 70%;
-  float: right;
+  width: 70%;  
   color: #fff;
 }
 
@@ -103,18 +102,18 @@ header {
   margin: 53px 50px 50px 92px;
   width: 245px;
   height: 485px;
-  background: url(../assets/PhoneV-img.png) no-repeat,
+  background: url(../assets/phoneV-img.png) no-repeat,
     url(../assets/phone-bg.png) no-repeat,
-    url(../assets/Shadow.png) 1px 0 no-repeat;
+    url(../assets/shadow.png) 1px 0 no-repeat;
 }
 
 .phone.horizontal {
   margin: 15px 10px 10px 16px;
   width: 485px;
   height: 245px;
-  background: url(../assets/PhoneH-img.png) no-repeat,
+  background: url(../assets/phoneH-img.png) no-repeat,
     url(../assets/phone-bg1.png) no-repeat,
-    url(../assets/Shadow1.png) 1px 0 no-repeat;
+    url(../assets/shadow1.png) 1px 0 no-repeat;
 }
 
 .chev {
