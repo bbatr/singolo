@@ -8,14 +8,15 @@ body {
   padding: 0;
 }
 
-header {
-  background: #2d303a;
-  border-bottom: 6px solid #323746;
-}
-
 .container {
   max-width: 1020px;
   margin: 0 auto;
+}
+
+/* хедер */
+header {
+  background: #2d303a;
+  border-bottom: 6px solid #323746;
 }
 
 .header-top {
@@ -107,7 +108,7 @@ header {
 }
 
 .phone.vertical {
-  margin: 53px 50px 50px 91px;
+  margin: 53px 50px 50px 92px;
   width: 245px;
   height: 485px;
   background: url(assets/phoneV-img.png) no-repeat,
@@ -116,7 +117,7 @@ header {
 }
 
 .phone.horizontal {
-  margin: 15px 10px 10px 15px;
+  margin: 15px 10px 10px 16px;
   width: 485px;
   height: 245px;
   background: url(assets/phoneH-img.png) no-repeat,
@@ -147,7 +148,7 @@ header {
 }
 
 .chev.next {
-  left: 40px;
+  left: 41px;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -192,6 +193,7 @@ header {
   line-height: 30px;
   color: #767e9e;
   font-weight: 300;
+  word-break: normal;
   text-align: justify;
   margin: 0;
 }
@@ -232,7 +234,7 @@ header {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  margin-left: 5px;
+  margin-left: 5px;  
   color: #666d89;
 }
 
@@ -240,6 +242,8 @@ header {
   font-size: 12px;
   line-height: 20px;
   font-weight: 400;
+  margin-left: 5px;
+  word-break: normal;
   text-align: justify;
   color: #767e9e;
 }
